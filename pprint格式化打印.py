@@ -10,4 +10,5 @@ for letter in message:
     count.setdefault(letter, 0)
     count[letter] += 1
 
-pprint.pprint(count)
+#pprint.pprint(count)
+print(pprint.pformat(count))
