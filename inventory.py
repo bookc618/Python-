@@ -17,4 +17,7 @@ def displayInventory(inventory):
         print("It's occar a TypeError,check inventory !")
 
 
+def addToInventory(inventory, addedItems):
+    pass
+
 displayInventory(stuff)
